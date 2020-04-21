@@ -3,4 +3,7 @@
 a=10
 Class=DevOps
 
-echo -e "Welcom to $Class training & strength is $a\nWelcome to $Class training & strength is $a"
+echo -e "Welcome to $Class training & strength is $a\nWelcome to $Class training & strength is $a"
+
+##Local Variable
+echo "Welcome to $CLAS training"
