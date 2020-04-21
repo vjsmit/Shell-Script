@@ -2,6 +2,6 @@
 
 read -p 'Enter your name:' Name
 read -p 'Enter your class:' Class
-read -s -p 'Enter yput=r password:' Pass 
+read -s -p 'Enter your password:' Pass 
 
 echo -e "\n\nHello $Name, welcome to $Class training\nYour passowrd is $Pass"
