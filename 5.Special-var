@@ -8,3 +8,4 @@ echo $6
 echo $*
 echo $@
 echo $#
+echo "Hello $1, Welcome to $2 training, $Your password is $3 "
