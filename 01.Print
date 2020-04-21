@@ -1,4 +1,8 @@
+#!/bin/bash
+
 echo Hello1
 echo -e "Smit\nVijay"
 echo -e "1\tSmit\t\tVijay\n2\tDevops\t\tTraining"
 echo -e "Sl#\t\tNAME\t\tPh#\n1\t\tSmit\t\t8051500250"
+#printing colors
+echo -e "\e[36mCyan\e[0m"
