@@ -11,3 +11,6 @@ echo -e "\e[32mGREEN\e[0m"
 echo -e "\e[33mYellow\e[0m"
 echo -e "\e[34mBlue\e[0m"
 echo -e "\e[35mMagenta\e[0m"
+
+##Printing both Foreground & Baackground
+echo -e "\e36:31mWORD\e[0m"
