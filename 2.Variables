@@ -9,5 +9,5 @@ echo -e "Welcome to $Class training & strength is $a\nWelcome to $Class training
 echo "Welcome to $CLAS training"
 
 #Command Subs
-DATE = $(date +%F)
+DATE=$(date +%F)
 echo "today date is $DATE"
