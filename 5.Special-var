@@ -1,11 +1,11 @@
 #!/bin/bash/
 
 echo script name= $0
-echo $1
-echo $2
-echo $3
-echo $6
-echo $*
-echo $@
-echo $#
+echo first character = $1
+echo second character = $2
+echo third character = $3
+echo sixth character =$6
+echo all charcter = $*
+echo all charcter = $@
+echo toal Argument = $#
 echo "Hello $1, Welcome to $2 training, $Your password is $3 "
