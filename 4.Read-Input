@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p 'Enter your name' name
+read -p 'Enter your name' Name
 read -p 'Enter your class' Class
 
 echo -e "\n\nHello $Name, welcome to $Class training"
