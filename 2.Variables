@@ -7,3 +7,7 @@ echo -e "Welcome to $Class training & strength is $a\nWelcome to $Class training
 
 ##Local Variable
 echo "Welcome to $CLAS training"
+
+#Command Subs
+DATE = $(date+%F)
+echo "today date is $DATE"
