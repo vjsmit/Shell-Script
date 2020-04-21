@@ -1,2 +1,6 @@
 #!/bin/bash
 
+a=10
+Class=DevOps
+
+echo -e "Welcom to$Class training & strength is $a"
