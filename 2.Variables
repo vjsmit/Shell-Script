@@ -3,4 +3,4 @@
 a=10
 Class=DevOps
 
-echo -e "Welcom to$Class training & strength is $a"
+echo -e "Welcom to $Class training & strength is $a\nWelcome to $Class training & strength is $a"
