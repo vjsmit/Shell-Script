@@ -9,6 +9,9 @@ if [ %USER_ID ne 0 ]; then
  exit 1
 fi
 
+echo -e "\t\t\t\t\t\e[33mWEBSERVER SETUP\e[0m"
+
+
  yum install httpd -y &>>$LOG
  if [ $? -ne 0 ]; then
    echo "Script is a failure"
