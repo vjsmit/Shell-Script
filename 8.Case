@@ -1,6 +1,6 @@
 #!/bin/bash
 Action=$1
-C="\e[35e"
+C="\e[35m"
 N="\e[0m"
 case $Action in
     Start)
