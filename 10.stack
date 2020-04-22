@@ -2,6 +2,7 @@
 
 LOG=/tmp/stack.log
 rm -f /tmp/stack.log
+APP=STUDENT
 
 error() {
  echo -e "\n$1\n"
@@ -50,4 +51,10 @@ Stat $?
 Print "Start HTTPD Web Server"
 systemctl enable httpd &>>LOG
 systemctl start httpd &>>LOG
+Stat $?
+
+####App Server Installaion
+
+Head "App Server Setup"
+useadd $APP &>>$LOG
 Stat $?
