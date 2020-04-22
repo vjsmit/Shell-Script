@@ -3,4 +3,5 @@
 samplex() {
   echo Hello
   echo bye
- }samplex
+  }
+ samplex
