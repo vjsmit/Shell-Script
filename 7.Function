@@ -10,5 +10,5 @@ samplex() {
  echo First input is =$1
  echo Second input is =$2
  }
- sampley
+ sampley 100 111
  
