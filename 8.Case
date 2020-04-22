@@ -7,4 +7,7 @@ case $Action in
     Stop)
       echo -e "Stopping the service"
       ;;
+     *)
+        echo "Usage:: $0 start|stop"
+        echo -e "\t start->starting the service\n\t stop->stopping the service"
   esac
