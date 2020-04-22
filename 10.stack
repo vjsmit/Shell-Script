@@ -77,7 +77,7 @@ fi
 
 cd $APPHOME
 Print "Download TOMCAT Service"
-wget -qO-TOMCAT_URL | tar -xz 
+wget -qO- $TOMCAT_URL | tar -xz 
 Stat $?
 
 cd $TOMCAT_DIR
