@@ -57,10 +57,10 @@ Stat $?
 
 Head "App Server Setup"
 
-Print "Install Java"
+Print "Install Java\t"
 yum install java -y &>>LOG
 Stat $?
 
-Print "Craeting User"
+Print "Creating User\t"
 useradd $APP &>>$LOG
 Stat $?
