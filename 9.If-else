@@ -10,12 +10,12 @@ if [$? -eq 0]; then
 
 action=$1
 
-if ["$action"="start"]; then
-  echo "Starting the service"
- elif ["$acion"="stop"] then
-  echo "Stopping the service"
+#if ["$action"="start"]; then
+ # echo "Starting the service"
+# elif ["$acion"="stop"] then
+ # echo "Stopping the service"
 #else
  #   echo "Usage::$0 start|stop"
   #  echo -e "\tstart->starting the service\n\tstop->stop the service"
    # exit 1
-fi
+# fi
