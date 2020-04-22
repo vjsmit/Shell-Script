@@ -1,0 +1,5 @@
+#!/bin/bash
+
+LOG=/tmp/stack.log
+rm -f /tmp/stack.log
+ yum install httpd -y >>&>>$LOG
