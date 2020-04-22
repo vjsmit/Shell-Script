@@ -1,4 +1,4 @@
 #!/bin/bash
 
 ##to send our own exit status by exit cmd
-exit
+exit 0
