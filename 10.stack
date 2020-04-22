@@ -57,5 +57,5 @@ Stat $?
 
 Head "App Server Setup"
 yum install java -y &>>LOG
-useadd $APP &>>$LOG
+useradd $APP &>>$LOG
 Stat $?
