@@ -6,7 +6,7 @@ if ["$action"="start"]; then
   echo "Starting the service"
  elif ["$acion"="stop"] then
   echo "Stopping the service"
- else
+else
     echo "Usage::$0 start|stop"
     echo -e "\tstart->starting the service\n\tstop->stop the service"
     exit 1
