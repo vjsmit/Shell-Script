@@ -13,5 +13,5 @@ echo "~"
 echo '~'
 #Disabling special character using \
 echo \*
-echo Hello1\nHello2
-echo Hello1\\nHello2
+echo -e Hello1\nHello2
+echo -e Hello1\\nHello2
