@@ -90,7 +90,7 @@ Print "Download MySQL JDBC Driver"
 wget https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar -O lib/mysql-connector.jar &>>$LOG
 Stat $?
 
-Print "Fix Permission"
+Print "Fix Permission\t"
 chown $APPUSER:$APPUSER $TOMCAT_DIR -R &>>$LOG
 Stat $?
 
