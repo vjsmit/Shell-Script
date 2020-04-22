@@ -87,5 +87,5 @@ Stat $?
 
 cd $TOMCAT_DIR
 Print "Download MySQL JDBC Driver"
-wget https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar -O lib/mysql-connector.jar
+wget https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar -O lib/mysql-connector.jar &>>$LOG
 Stat$?
