@@ -19,4 +19,12 @@ samplex() {
     }
     samplez
     echo "Status of function = $?"
+    
+  sample1(){
+  AM=100
+  echo "Value of AF= $AF"
+  }
+  sample1
+  AF=200
+  echo "Value of AM = $AM"
  
