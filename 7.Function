@@ -14,7 +14,7 @@ samplex() {
  
  samplez(){
     echo Smit
-    return
+    return 10
     echo Vijay
     }
     samplez
