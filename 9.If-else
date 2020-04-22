@@ -3,9 +3,9 @@
 
 action=$1
 
-if [ "$action"=="start" ]; then
+if [ "$action"="start" ]; then
   echo "Starting the service"
-elif [ "$acion"=="stop" ]; then
+elif [ "$acion"="stop" ]; then
   echo "Stopping the service"
 else
     echo "Usage::$0 start|stop"
