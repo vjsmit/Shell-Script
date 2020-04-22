@@ -3,3 +3,7 @@
 echo *
 echo Hello *
 echo 'Hello *'
+
+ls -ld /opt /opt1 &>/dev/null
+echo 'Exit status of ls cmd = $?'
+echo "Exit status of ls cmd = $?"
