@@ -15,6 +15,16 @@ Print() {
  echo -e "\t$1"
 }
 
+Stat(){
+if [ $? eq 0 ]; then
+  echo "Success"
+else
+  echo "Failure"
+  echo "Refer the logs for more detail---file path = $LOG"
+  exit 10
+ fi
+}
+
 USER_ID = $(id -u)
 if [ %USER_ID ne 0 ]; then
  error "You are not a root user"
@@ -25,8 +35,4 @@ Head "WEB SERVER Setup"
 
 Print "Install HTTPD Server"
  yum install httpd -y &>>$LOG
- if [ $? -ne 0 ]; then
-   echo "Script is a failure"
-   echo "Refer log file :: $LOG"
-  exit 2
- fi
+ Stat $?
