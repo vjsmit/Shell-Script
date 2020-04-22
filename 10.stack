@@ -62,7 +62,7 @@ yum install java -y &>>LOG
 Stat $?
 
 Print "Creating User\t"
-id $APP&>>$LOG
+id $APP &>>$LOG
 if [ $? -eq 0 ]; then
   stat 0
 else
