@@ -9,5 +9,5 @@ echo 'Exit status of ls cmd = $?'
 echo "Exit status of ls cmd = $?"
 echo "*"
 echo '*'
-echo "`~"
-echo '`~'
+echo "~"
+echo '~'
