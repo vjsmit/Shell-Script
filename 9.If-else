@@ -5,6 +5,7 @@ if [$? -eq 0]; then
   echo "Successful"
  else
   echo "Failure"
+ fi
 
 
 
