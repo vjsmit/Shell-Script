@@ -3,7 +3,7 @@
 LOG=/tmp/stack.log
 rm -f /tmp/stack.log
  yum install httpd -y &>>$LOG
- if [$? -ne 0];then
+ if[$? -ne 0];then
   echo "Script is a failure"
   echo "Refer log file :: $LOG"
   exit 1
