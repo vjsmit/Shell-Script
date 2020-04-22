@@ -12,4 +12,6 @@ case $Action in
      *)
         echo "Usage:: $0 start|stop"
         echo -e "\t ${C}start${N}->starting the service\n\t ${C}stop${N}->stopping the service"
+        exit 1
+        ;;
   esac
