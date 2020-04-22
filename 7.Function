@@ -27,4 +27,12 @@ samplex() {
   AF=200
   sample1
   echo "Value of AM = $AM"
+  
+  sample2(){
+    local a1=99
+    echo "Value of a1 in fn is =$a1"
+    }
+    a1=78
+    sample2
+    echo "Value of a1 in main program = $a1"
  
