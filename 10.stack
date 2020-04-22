@@ -2,9 +2,16 @@
 
 LOG=/tmp/stack.log
 rm -f /tmp/stack.log
+
+USER_ID = $(id -u)
+if [ %USER_ID ne 0 ]; then
+ echo "You are not a root user"
+ exit 1
+fi
+
  yum install httpd -y &>>$LOG
  if [ $? -ne 0 ]; then
    echo "Script is a failure"
    echo "Refer log file :: $LOG"
-  exit 1
+  exit 2
  fi
