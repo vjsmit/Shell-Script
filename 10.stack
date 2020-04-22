@@ -62,5 +62,10 @@ yum install java -y &>>LOG
 Stat $?
 
 Print "Creating User\t"
-useradd $APP &>>$LOG
-Stat $?
+id $APP&>>$LOG
+if [ $? -eq 0 ]; then
+  stat 0
+else
+  useradd $APP &>>$LOG
+  Stat $?
+fi
