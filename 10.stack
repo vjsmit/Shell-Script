@@ -3,15 +3,27 @@
 LOG=/tmp/stack.log
 rm -f /tmp/stack.log
 
+error() {
+ echo -e "\n$1\n"
+ }
+ 
+Head() {
+ echo -e "\n\t\t>>>>$1<<<<<<\n"
+}
+
+Print() {
+ echo -e "\t$1"
+}
+
 USER_ID = $(id -u)
 if [ %USER_ID ne 0 ]; then
- echo "You are not a root user"
+ error "You are not a root user"
  exit 1
 fi
 
-echo -e "\t\t\t\t\t\e[33mWEBSERVER SETUP\e[0m"
+Head "WEB SERVER Setup"
 
-
+Print "Install HTTPD Server"
  yum install httpd -y &>>$LOG
  if [ $? -ne 0 ]; then
    echo "Script is a failure"
