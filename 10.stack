@@ -37,7 +37,7 @@ Print "Install HTTPD Server"
  yum install httpd -y &>>$LOG
  Stat $?
  
-Print " Setup Reverse proxy server"
+Print "Setup Reverse proxy server"
 echo 'ProxyPass "/student" "http://localhost:8080/student"
 ProxyPassReverse "/student"  "http://localhost:8080/student"
 '>/etc/httpd/conf.d/app-proxy.conf
