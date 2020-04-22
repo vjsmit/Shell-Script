@@ -12,12 +12,12 @@ Head() {
 }
 
 Print() {
- echo -e "    $1\t--"
+ echo -n -e "    $1\t--"
 }
 
 Stat(){
 if [ $? -eq 0 ]; then
-  echo "Success"
+  echo "Successfully installed HTTPD"
 else
   echo "Failure"
   echo "Refer the logs for more detail---file path = $LOG"
