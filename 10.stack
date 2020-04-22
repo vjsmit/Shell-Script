@@ -12,7 +12,7 @@ Head() {
 }
 
 Print() {
- echo -e "\t$1"
+ echo -e "    $1\t--"
 }
 
 Stat(){
