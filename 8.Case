@@ -1,5 +1,7 @@
 #!/bin/bash
 Action=$1
+C=\e[35e
+N=\e[0m
 case $Action in
     Start)
       echo -e "Starting the service"
@@ -9,5 +11,5 @@ case $Action in
       ;;
      *)
         echo "Usage:: $0 start|stop"
-        echo -e "\t start->starting the service\n\t stop->stopping the service"
+        echo -e "\t {C}start{N}->starting the service\n\t {C}stop{N}->stopping the service"
   esac
