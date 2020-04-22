@@ -12,3 +12,11 @@ samplex() {
  }
  sampley 100 111
  
+ samplez(){
+    echo Smit
+    return
+    echo Vijay
+    }
+    samplez
+    echo "Status of function = $?"
+ 
