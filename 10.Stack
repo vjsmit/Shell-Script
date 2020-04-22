@@ -2,4 +2,4 @@
 
 LOG=/tmp/stack.log
 rm -f /tmp/stack.log
- yum install httpd -y >>&>>$LOG
+ yum install httpd -y &>>$LOG
