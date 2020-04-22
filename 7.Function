@@ -1,0 +1,5 @@
+#!/bin/bash
+
+samplex() {
+  echo Hello
+  echo bye}
