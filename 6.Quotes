@@ -15,3 +15,5 @@ echo '~'
 echo \*
 echo -e Hello1\nHello2
 echo -e Hello1\\nHello2
+
+echo -e "Cost of Apple is $100\\nCost of orange is $50"
