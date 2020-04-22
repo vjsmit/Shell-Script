@@ -56,5 +56,6 @@ Stat $?
 ####App Server Installaion
 
 Head "App Server Setup"
+yum install java -y &>>LOG
 useadd $APP &>>$LOG
 Stat $?
