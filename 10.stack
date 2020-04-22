@@ -64,7 +64,7 @@ Stat $?
 Print "Creating User\t"
 id $APP &>>$LOG
 if [ $? -eq 0 ]; then
-  stat 0
+  Stat 0
 else
   useradd $APP &>>$LOG
   Stat $?
