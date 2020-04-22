@@ -56,6 +56,11 @@ Stat $?
 ####App Server Installaion
 
 Head "App Server Setup"
+
+Print "Install Java"
 yum install java -y &>>LOG
+Stat $?
+
+Print "Craeting User"
 useradd $APP &>>$LOG
 Stat $?
