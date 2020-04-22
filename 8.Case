@@ -1,7 +1,7 @@
 #!/bin/bash
 Action=$1
-C=\e[35e
-N=\e[0m
+C="\e[35e"
+N="\e[0m"
 case $Action in
     Start)
       echo -e "Starting the service"
