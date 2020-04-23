@@ -91,7 +91,7 @@ wget https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar -O li
 Stat $?
 
 Print "Fix Permission\t"
-chown $APPUSER:a$APPUSER $TOMCAT_DIR -R &>>$LOG
+chown $APPUSER:$APPUSER $TOMCAT_DIR -R &>>$LOG
 Stat $?
 
 Print "Setup DB Parameter\t"
