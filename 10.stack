@@ -108,7 +108,7 @@ Stat $?
 
 Print "Start Tomcat server"
 systemctl daemon-reload 
-systemctl start tomcat &>>LOG
+systemctl start tomcat
 Stat $?
 
 
