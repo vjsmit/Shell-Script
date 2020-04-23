@@ -107,8 +107,8 @@ chmod +x /etc/init.d/tomcat &>>LOG
 Stat $?
 
 Print "Start Tomcat server"
-systemctl daemon-reload
-systemctl start tomcat
+systemctl daemon-reload 
+systemctl start tomca
 Stat $?
 
 
