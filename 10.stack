@@ -91,7 +91,7 @@ wget https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar -O li
 Stat $?
 
 Print "Fix Permission\t"
-chown $APPUSER:$APPUSER $TOMCAT_DIR -R &>>$LOG
+chown $APPUSER:a$APPUSER $TOMCAT_DIR -R &>>$LOG
 Stat $?
 
 Print "Setup DB Parameter\t"
@@ -107,7 +107,7 @@ chmod +x /etc/init.d/tomcat &>>LOG
 Stat $?
 
 Print "Start Tomcat server"
-systemctl daemon-reload
+systemctl deamon-reload
 systemctl start tomcat
 Stat $?
 
