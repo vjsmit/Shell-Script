@@ -106,10 +106,7 @@ Print "init Script permission"
 chmod +x /etc/init.d/tomcat &>>LOG
 Stat $?
 
-Print "Start Tomcat server"
+Print "Start Tomcat server\t"
 systemctl daemon-reload 
 systemctl start tomcat
 Stat $?
-
-
-
